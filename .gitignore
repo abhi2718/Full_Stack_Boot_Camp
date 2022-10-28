@@ -1,0 +1,20 @@
+# ignoring a single file by giving path 
+# /build/log/log1.js
+
+# ignoring all files with same in 
+# log2.js
+
+# ignoring a single folder
+# /build/log/
+
+# ignoring all files with same extension
+# *.js
+
+# ignoring all folders with same name 
+# **/log
+# or
+# log
+
+# ignoring all files starting with log_.js and having some thing here _ 
+# log?.js
+
