@@ -1,0 +1,36 @@
+# ignoring a single file by giving path 
+# /build/log/log1.js
+
+# ignoring all files with same in 
+# log2.js
+
+# ignoring a single folder
+# /build/log/
+
+# ignoring all files with same extension
+# *.js
+
+# ignoring all folders with same name 
+# **/log
+# or
+# log
+
+# ignoring all files starting with log_.js and having some thing here _ 
+# log?.js
+
+Adding files to Staging Area 
+git add file1 file2 file3 /resource/config/
+git add . -> to add all files/folders into Staging Area
+git add -A -> to add all unTracked files/folders into Staging Area
+git add * -> to add all unTracked files/folders into Staging Area
+
+Clean up
+git clean => to remove all files/folders from working directory which are untracked
+git clean -n  ==> list all files/folders which going to be removed
+git clean -f ==> remove all files/folders which are untracked
+
+Moving files or renaming 
+git mv -f source destination
+remaming :- git mv -f  index.html baseIndex.html
+moving a file from one directory to another
+git mv -f  source/pth destination/path
